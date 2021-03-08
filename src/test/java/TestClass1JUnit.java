@@ -11,10 +11,14 @@ public class TestClass1JUnit {
         public void addedAnotherTest(){
            System.out.println("This is JUnit 2");
         }
+        @Test
+        public void test3Added(){
+            System.out.println("Test3 Added");
+        }
 
 
 
     }
 
 
-}
+
